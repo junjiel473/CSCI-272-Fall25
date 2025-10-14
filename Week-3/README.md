@@ -1,1 +1,1 @@
-This folder contains practice codes and Assignment 3 for Week 3.
+This folder contains practice codes for Week 3.

@@ -1,1 +1,1 @@
-This folder contains practice codes and Assignment 4 for Week 4.
+This folder contains practice codes for Week 4.

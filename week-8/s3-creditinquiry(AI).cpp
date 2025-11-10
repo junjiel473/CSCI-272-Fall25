@@ -1,4 +1,5 @@
 // Credit inquiry program.
+// Formatted directly from the Slide to make it easier to look at using ChatGPt
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -112,3 +113,4 @@ void outputLine(int account, const std::string& name, double balance) {
               << std::setw(7) << std::setprecision(2)
               << std::right << balance << std::endl;
 }
+

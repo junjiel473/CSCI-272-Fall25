@@ -19,7 +19,7 @@ void outputLine(int, const std::string&, double);
 
 int main() {
     // ifstream constructor opens the file
-    std::ifstream inClientFile{"Clients.txt", std::ios::in};
+    std::ifstream inClientFile{"clients.txt", std::ios::in};
 
     // exit program if ifstream could not open file
     if (!inClientFile) {
@@ -113,4 +113,5 @@ void outputLine(int account, const std::string& name, double balance) {
               << std::setw(7) << std::setprecision(2)
               << std::right << balance << std::endl;
 }
+
 

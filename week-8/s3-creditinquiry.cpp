@@ -1,3 +1,5 @@
+// handtyped
+
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -112,4 +114,5 @@ void outputLine (int account, const string& name, double balance){
 		 << setw(13) << name
 		 << setw(7) << setprecision(2)
 		 << right << balance << endl;
+
 }

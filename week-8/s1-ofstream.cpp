@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 	// creates an ofstream object named outClientFile, file name = client.txt
-	ofstream outClientFile("client.txt", ios::out);
+	ofstream outClientFile("clients.txt", ios::out);
 	
 	// check if file exist
 	// if not, show a warning
@@ -46,3 +46,4 @@ int main(){
 	
 	return 0;
 }
+

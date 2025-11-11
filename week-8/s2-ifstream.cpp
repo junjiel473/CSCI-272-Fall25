@@ -13,7 +13,7 @@ void outputLine (int account, const string& name, double balance){
 
 int main(){
 	
-	ifstream inClientFile("client.txt", ios::in);
+	ifstream inClientFile("clients.txt", ios::in);
 	
 	if(!inClientFile){
 		cerr << "File could not be opened!\n";
@@ -31,4 +31,5 @@ int main(){
 	}
 	
 	return 0;
+
 }

@@ -1,1 +1,1 @@
-This folder contains practice codes Week 10.
+This folder contains practice codes and Assignment 5 for Week 10.
